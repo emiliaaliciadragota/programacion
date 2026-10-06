@@ -1,10 +1,10 @@
 public class Ej5 {
     public static void main (String[] args){
-        String nombre = "TikTok";
+        final String nombre = "TikTok";
         System.out.println("Aplicación: "+nombre);
         double ver = 47.4;
         System.out.println("Versión: "+ver);
-        double valorPI = 3.13159;
+        final double valorPI = 3.13159;
         System.out.println("Valor de PI: "+valorPI);
         String usuarioActual = "aliciadragota";
         System.out.println("Usuario actual: "+usuarioActual);
